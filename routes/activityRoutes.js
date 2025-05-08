@@ -1,8 +1,8 @@
 const express = require("express");
-const { getActivities } = require("../controllers/activityController");
+const { ashish_getActivities } = require("../controllers/activityController");
 
 const router = express.Router();
 
-router.get("/", getActivities); // public
+router.get("/", ashish_getActivities); // public
 
 module.exports = router;

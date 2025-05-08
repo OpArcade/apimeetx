@@ -1,6 +1,6 @@
 const Activity = require("../models/Activity");
 
-exports.getActivities = async (req, res) => {
+exports.ashish_getActivities = async (req, res) => {
   try {
     const await activities = Activity.find();
     res.json(activities);
